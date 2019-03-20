@@ -1,6 +1,4 @@
-INSERT INTO burgers(burger_name, devoured)
-	values('Booger Burger', false),
-    ('Flora-Burger', false),
-    ('Bama-Burger', false);
-    
-    select * from burgers;
+USE burgers_db;
+-- Insert new rows of data.
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("hamburger", false), ("cheeseburger", false), ("tofu burger", false);
